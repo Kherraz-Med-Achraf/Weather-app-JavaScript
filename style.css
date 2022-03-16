@@ -1,0 +1,37 @@
+body {
+    min-width: 400px;
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+}
+
+
+#ville {
+    text-transform: capitalize;
+}
+
+#temperature {
+    font-size: 4em;
+}
+
+#changer {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+}
+
+button {
+    border: 1px;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.dark {
+    background: #112F41;
+    color: #ffffff;
+}
+
+.dark button {
+    background: #144098;
+    color: #fff;
+}
